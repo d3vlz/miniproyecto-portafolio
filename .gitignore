@@ -1,33 +1,109 @@
-# Gradle files
-.gradle/
+# -----------------------
+# 🖥️ WINDOWS
+# -----------------------
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.stackdump
+
+# -----------------------
+# 🧠 VS CODE
+# -----------------------
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+
+# -----------------------
+# 📦 NODE / JAVASCRIPT
+# -----------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+*.tsbuildinfo
+
+# -----------------------
+# ⚙️ NEXT.JS / REACT / VITE
+# -----------------------
+.next/
+out/
+.cache/
+.vercel/
+dist/
 build/
 
-# Local configuration file (sdk path, etc)
-local.properties
+# -----------------------
+# 🌈 BOOTSTRAP
+# -----------------------
+*.css.map
+*.min.css.map
 
-# Log/OS Files
+# -----------------------
+# 🐍 PYTHON
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+*.sqlite3 # Ejemplo para Django
+
+# -----------------------
+# 🛠️ TEMPORALES
+# -----------------------
 *.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~*
+*.old
+*.orig
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+# -----------------------
+# 🗜️ ARCHIVOS COMPRIMIDOS
+# -----------------------
+*.zip
+*.rar
+*.tar
+*.tar.gz
+*.7z
 
-# IntelliJ
-*.iml
+# -----------------------
+# ⚙️ OTROS
+# -----------------------
+/vendor/
+.env
+/bootstrap/cache/
+/storage/logs/
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+*.iml
+target/
+/docs/_build/
